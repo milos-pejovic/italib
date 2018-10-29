@@ -1,0 +1,109 @@
+#header, #footer {
+    background-color: rgb(230, 210, 140); 
+    padding: 10px;
+}
+
+#wrapper {
+    width: 80%;
+    min-width:900px;
+    margin:auto;
+}
+
+nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu {
+    display: inline-block;
+    background-color: rgb(180, 120, 90);
+    width: 72px;
+    text-align: center;
+    position:relative;
+    padding: 10px 20px;
+}
+
+nav a:link, nav a:active, nav a:hover, nav a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+#main_menu_nav {
+    text-align: center;
+}
+
+.main_menu:hover, .main_menu2:hover {
+    background-color: rgb(210, 150, 120);
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.level2 {
+    right: 0;
+    left:0;
+    top: 38px;
+    position: absolute;
+    background: red;
+    display: none;
+}
+
+.level2_li {
+    display: block;
+    background-color: rgb(180, 120, 90);
+    text-align: center;
+}
+
+.main_menu:hover .level2 {
+    display:block;
+}
+
+input[type='submit'] {
+    padding: 5px 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table, table td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#main_title {
+    text-align: center;
+}
+
+.form_label {
+    display: inline-block;
+    width: 100px;
+}
+
+.form_label2 {
+    display: inline-block;
+    width: 270px;
+}
+
+.form_label3 {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.form_label4 {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.form_label_button4 {
+    margin-left: 205px;
+} 
+
+.mustFillIn {
+    display:none;
+    color: rgb(250, 80, 80);
+}
